@@ -1,0 +1,24 @@
+{
+    "tdt4102.isProjectFolder": true,
+    "cmake.configureOnOpen": false,
+    "cmake.autoSelectActiveFolder": false,
+    "cmake.configureOnEdit": false,
+    "makefile.alwaysPreConfigure": false,
+    "C_Cpp.default.compileCommands": [
+        "${workspaceFolder}/build/compile_commands.json"
+    ],
+    "C_Cpp.codeAnalysis.clangTidy.args": [
+        "-header-filter=^${workspaceFolder}/.*",
+        "--system-headers=false",
+        "--query-driver=/usr/bin/*, /usr/local/bin/*, C:/TDT4102-mingw64/bin/*",
+    ],
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.codeAnalysis.exclude":{
+        "subprojects/**": true,
+        "build/**": true
+    },
+    "C_Cpp.codeAnalysis.runAutomatically": true,
+    "C_Cpp.codeAnalysis.clangTidy.useBuildPath": true,
+    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
+    "C_Cpp.intelliSenseEngine": "default"
+}
